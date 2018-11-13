@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FF0AD52219A715E00F388FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD51219A715E00F388FA /* AppDelegate.m */; };
+		9FF0AD55219A715E00F388FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD54219A715E00F388FA /* ViewController.m */; };
+		9FF0AD58219A715E00F388FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0AD56219A715E00F388FA /* Main.storyboard */; };
+		9FF0AD5A219A716000F388FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0AD59219A716000F388FA /* Assets.xcassets */; };
+		9FF0AD5D219A716000F388FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0AD5B219A716000F388FA /* LaunchScreen.storyboard */; };
+		9FF0AD60219A716000F388FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD5F219A716000F388FA /* main.m */; };
+		9FF0AD6A219A716000F388FA /* BLDropDownListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD69219A716000F388FA /* BLDropDownListViewTests.m */; };
+		9FF0AD75219A716000F388FA /* BLDropDownListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD74219A716000F388FA /* BLDropDownListViewUITests.m */; };
+		9FF0AD8F219A71B800F388FA /* BLDropDownListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD86219A71B800F388FA /* BLDropDownListView.m */; };
+		9FF0AD90219A71B800F388FA /* BLDropDownListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD87219A71B800F388FA /* BLDropDownListItem.m */; };
+		9FF0AD91219A71B800F388FA /* BLDropDownCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD88219A71B800F388FA /* BLDropDownCollectionCell.m */; };
+		9FF0AD92219A71B800F388FA /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD89219A71B800F388FA /* UICollectionViewLeftAlignedLayout.m */; };
+		9FF0AD93219A71B800F388FA /* UIButton+Balopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF0AD8D219A71B800F388FA /* UIButton+Balopy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FF0AD66219A716000F388FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF0AD45219A715E00F388FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF0AD4C219A715E00F388FA;
+			remoteInfo = BLDropDownListView;
+		};
+		9FF0AD71219A716000F388FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF0AD45219A715E00F388FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF0AD4C219A715E00F388FA;
+			remoteInfo = BLDropDownListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FF0AD4D219A715E00F388FA /* BLDropDownListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLDropDownListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF0AD50219A715E00F388FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FF0AD51219A715E00F388FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9FF0AD53219A715E00F388FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FF0AD54219A715E00F388FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9FF0AD57219A715E00F388FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FF0AD59219A716000F388FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF0AD5C219A716000F388FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF0AD5E219A716000F388FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF0AD5F219A716000F388FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FF0AD65219A716000F388FA /* BLDropDownListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLDropDownListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF0AD69219A716000F388FA /* BLDropDownListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListViewTests.m; sourceTree = "<group>"; };
+		9FF0AD6B219A716000F388FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF0AD70219A716000F388FA /* BLDropDownListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLDropDownListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF0AD74219A716000F388FA /* BLDropDownListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListViewUITests.m; sourceTree = "<group>"; };
+		9FF0AD76219A716000F388FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF0AD84219A71B800F388FA /* BLDropDownCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDropDownCollectionCell.h; sourceTree = "<group>"; };
+		9FF0AD85219A71B800F388FA /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		9FF0AD86219A71B800F388FA /* BLDropDownListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListView.m; sourceTree = "<group>"; };
+		9FF0AD87219A71B800F388FA /* BLDropDownListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListItem.m; sourceTree = "<group>"; };
+		9FF0AD88219A71B800F388FA /* BLDropDownCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLDropDownCollectionCell.m; sourceTree = "<group>"; };
+		9FF0AD89219A71B800F388FA /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		9FF0AD8A219A71B800F388FA /* BLDropDownListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDropDownListView.h; sourceTree = "<group>"; };
+		9FF0AD8B219A71B800F388FA /* BLDropDownListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLDropDownListItem.h; sourceTree = "<group>"; };
+		9FF0AD8D219A71B800F388FA /* UIButton+Balopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Balopy.m"; sourceTree = "<group>"; };
+		9FF0AD8E219A71B800F388FA /* UIButton+Balopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Balopy.h"; sourceTree = "<group>"; };
+		9FF0AD96219A71C200F388FA /* BLDropDownCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLDropDownCollectionCell.h; sourceTree = "<group>"; };
+		9FF0AD97219A71C200F388FA /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		9FF0AD98219A71C200F388FA /* BLDropDownListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListView.m; sourceTree = "<group>"; };
+		9FF0AD99219A71C200F388FA /* BLDropDownListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLDropDownListItem.m; sourceTree = "<group>"; };
+		9FF0AD9A219A71C200F388FA /* BLDropDownCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLDropDownCollectionCell.m; sourceTree = "<group>"; };
+		9FF0AD9B219A71C200F388FA /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		9FF0AD9C219A71C200F388FA /* BLDropDownListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLDropDownListView.h; sourceTree = "<group>"; };
+		9FF0AD9D219A71C200F388FA /* BLDropDownListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLDropDownListItem.h; sourceTree = "<group>"; };
+		9FF0AD9F219A71C200F388FA /* UIButton+Balopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Balopy.m"; sourceTree = "<group>"; };
+		9FF0ADA0219A71C200F388FA /* UIButton+Balopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Balopy.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF0AD4A219A715E00F388FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD62219A716000F388FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD6D219A716000F388FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FF0AD44219A715E00F388FA = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD4F219A715E00F388FA /* BLDropDownListView */,
+				9FF0AD82219A71B800F388FA /* BLDropDownListView */,
+				9FF0AD68219A716000F388FA /* BLDropDownListViewTests */,
+				9FF0AD73219A716000F388FA /* BLDropDownListViewUITests */,
+				9FF0AD4E219A715E00F388FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF0AD4E219A715E00F388FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD4D219A715E00F388FA /* BLDropDownListView.app */,
+				9FF0AD65219A716000F388FA /* BLDropDownListViewTests.xctest */,
+				9FF0AD70219A716000F388FA /* BLDropDownListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF0AD4F219A715E00F388FA /* BLDropDownListView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD94219A71C200F388FA /* BLDropDownListView */,
+				9FF0AD50219A715E00F388FA /* AppDelegate.h */,
+				9FF0AD51219A715E00F388FA /* AppDelegate.m */,
+				9FF0AD53219A715E00F388FA /* ViewController.h */,
+				9FF0AD54219A715E00F388FA /* ViewController.m */,
+				9FF0AD56219A715E00F388FA /* Main.storyboard */,
+				9FF0AD59219A716000F388FA /* Assets.xcassets */,
+				9FF0AD5B219A716000F388FA /* LaunchScreen.storyboard */,
+				9FF0AD5E219A716000F388FA /* Info.plist */,
+				9FF0AD5F219A716000F388FA /* main.m */,
+			);
+			path = BLDropDownListView;
+			sourceTree = "<group>";
+		};
+		9FF0AD68219A716000F388FA /* BLDropDownListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD69219A716000F388FA /* BLDropDownListViewTests.m */,
+				9FF0AD6B219A716000F388FA /* Info.plist */,
+			);
+			path = BLDropDownListViewTests;
+			sourceTree = "<group>";
+		};
+		9FF0AD73219A716000F388FA /* BLDropDownListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD74219A716000F388FA /* BLDropDownListViewUITests.m */,
+				9FF0AD76219A716000F388FA /* Info.plist */,
+			);
+			path = BLDropDownListViewUITests;
+			sourceTree = "<group>";
+		};
+		9FF0AD82219A71B800F388FA /* BLDropDownListView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD83219A71B800F388FA /* DropDowListView */,
+				9FF0AD8C219A71B800F388FA /* BLButton */,
+			);
+			name = BLDropDownListView;
+			path = ../BLDropDownListViewa/BLDropDownListView/BLDropDownListView;
+			sourceTree = "<group>";
+		};
+		9FF0AD83219A71B800F388FA /* DropDowListView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD84219A71B800F388FA /* BLDropDownCollectionCell.h */,
+				9FF0AD85219A71B800F388FA /* UICollectionViewLeftAlignedLayout.h */,
+				9FF0AD86219A71B800F388FA /* BLDropDownListView.m */,
+				9FF0AD87219A71B800F388FA /* BLDropDownListItem.m */,
+				9FF0AD88219A71B800F388FA /* BLDropDownCollectionCell.m */,
+				9FF0AD89219A71B800F388FA /* UICollectionViewLeftAlignedLayout.m */,
+				9FF0AD8A219A71B800F388FA /* BLDropDownListView.h */,
+				9FF0AD8B219A71B800F388FA /* BLDropDownListItem.h */,
+			);
+			path = DropDowListView;
+			sourceTree = "<group>";
+		};
+		9FF0AD8C219A71B800F388FA /* BLButton */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD8D219A71B800F388FA /* UIButton+Balopy.m */,
+				9FF0AD8E219A71B800F388FA /* UIButton+Balopy.h */,
+			);
+			path = BLButton;
+			sourceTree = "<group>";
+		};
+		9FF0AD94219A71C200F388FA /* BLDropDownListView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD95219A71C200F388FA /* DropDowListView */,
+				9FF0AD9E219A71C200F388FA /* BLButton */,
+			);
+			path = BLDropDownListView;
+			sourceTree = "<group>";
+		};
+		9FF0AD95219A71C200F388FA /* DropDowListView */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0AD96219A71C200F388FA /* BLDropDownCollectionCell.h */,
+				9FF0AD97219A71C200F388FA /* UICollectionViewLeftAlignedLayout.h */,
+				9FF0AD98219A71C200F388FA /* BLDropDownListView.m */,
+				9FF0AD99219A71C200F388FA /* BLDropDownListItem.m */,
+				9FF0AD9A219A71C200F388FA /* BLDropDownCollectionCell.m */,
+				9FF0AD9B219A71C200F388FA /* UICollectionViewLeftAlignedLayout.m */,
+				9FF0AD9C219A71C200F388FA /* BLDropDownListView.h */,
+				9FF0AD9D219A71C200F388FA /* BLDropDownListItem.h */,
+			);
+			path = DropDowListView;
+			sourceTree = "<group>";
+		};
+		9FF0AD9E219A71C200F388FA /* BLButton */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0ADA0219A71C200F388FA /* UIButton+Balopy.h */,
+				9FF0AD9F219A71C200F388FA /* UIButton+Balopy.m */,
+			);
+			path = BLButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF0AD4C219A715E00F388FA /* BLDropDownListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF0AD79219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListView" */;
+			buildPhases = (
+				9FF0AD49219A715E00F388FA /* Sources */,
+				9FF0AD4A219A715E00F388FA /* Frameworks */,
+				9FF0AD4B219A715E00F388FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLDropDownListView;
+			productName = BLDropDownListView;
+			productReference = 9FF0AD4D219A715E00F388FA /* BLDropDownListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FF0AD64219A716000F388FA /* BLDropDownListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF0AD7C219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListViewTests" */;
+			buildPhases = (
+				9FF0AD61219A716000F388FA /* Sources */,
+				9FF0AD62219A716000F388FA /* Frameworks */,
+				9FF0AD63219A716000F388FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF0AD67219A716000F388FA /* PBXTargetDependency */,
+			);
+			name = BLDropDownListViewTests;
+			productName = BLDropDownListViewTests;
+			productReference = 9FF0AD65219A716000F388FA /* BLDropDownListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FF0AD6F219A716000F388FA /* BLDropDownListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF0AD7F219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListViewUITests" */;
+			buildPhases = (
+				9FF0AD6C219A716000F388FA /* Sources */,
+				9FF0AD6D219A716000F388FA /* Frameworks */,
+				9FF0AD6E219A716000F388FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF0AD72219A716000F388FA /* PBXTargetDependency */,
+			);
+			name = BLDropDownListViewUITests;
+			productName = BLDropDownListViewUITests;
+			productReference = 9FF0AD70219A716000F388FA /* BLDropDownListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF0AD45219A715E00F388FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王春龙";
+				TargetAttributes = {
+					9FF0AD4C219A715E00F388FA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9FF0AD64219A716000F388FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FF0AD4C219A715E00F388FA;
+					};
+					9FF0AD6F219A716000F388FA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FF0AD4C219A715E00F388FA;
+					};
+				};
+			};
+			buildConfigurationList = 9FF0AD48219A715E00F388FA /* Build configuration list for PBXProject "BLDropDownListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF0AD44219A715E00F388FA;
+			productRefGroup = 9FF0AD4E219A715E00F388FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF0AD4C219A715E00F388FA /* BLDropDownListView */,
+				9FF0AD64219A716000F388FA /* BLDropDownListViewTests */,
+				9FF0AD6F219A716000F388FA /* BLDropDownListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF0AD4B219A715E00F388FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0AD5D219A716000F388FA /* LaunchScreen.storyboard in Resources */,
+				9FF0AD5A219A716000F388FA /* Assets.xcassets in Resources */,
+				9FF0AD58219A715E00F388FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD63219A716000F388FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD6E219A716000F388FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF0AD49219A715E00F388FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0AD93219A71B800F388FA /* UIButton+Balopy.m in Sources */,
+				9FF0AD91219A71B800F388FA /* BLDropDownCollectionCell.m in Sources */,
+				9FF0AD92219A71B800F388FA /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				9FF0AD55219A715E00F388FA /* ViewController.m in Sources */,
+				9FF0AD8F219A71B800F388FA /* BLDropDownListView.m in Sources */,
+				9FF0AD60219A716000F388FA /* main.m in Sources */,
+				9FF0AD52219A715E00F388FA /* AppDelegate.m in Sources */,
+				9FF0AD90219A71B800F388FA /* BLDropDownListItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD61219A716000F388FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0AD6A219A716000F388FA /* BLDropDownListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0AD6C219A716000F388FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0AD75219A716000F388FA /* BLDropDownListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF0AD67219A716000F388FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF0AD4C219A715E00F388FA /* BLDropDownListView */;
+			targetProxy = 9FF0AD66219A716000F388FA /* PBXContainerItemProxy */;
+		};
+		9FF0AD72219A716000F388FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF0AD4C219A715E00F388FA /* BLDropDownListView */;
+			targetProxy = 9FF0AD71219A716000F388FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF0AD56219A715E00F388FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF0AD57219A715E00F388FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FF0AD5B219A716000F388FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF0AD5C219A716000F388FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF0AD77219A716000F388FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FF0AD78219A716000F388FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF0AD7A219A716000F388FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF0AD7B219A716000F388FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FF0AD7D219A716000F388FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLDropDownListView.app/BLDropDownListView";
+			};
+			name = Debug;
+		};
+		9FF0AD7E219A716000F388FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLDropDownListView.app/BLDropDownListView";
+			};
+			name = Release;
+		};
+		9FF0AD80219A716000F388FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLDropDownListView;
+			};
+			name = Debug;
+		};
+		9FF0AD81219A716000F388FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLDropDownListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Balopy.BLDropDownListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLDropDownListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF0AD48219A715E00F388FA /* Build configuration list for PBXProject "BLDropDownListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF0AD77219A716000F388FA /* Debug */,
+				9FF0AD78219A716000F388FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF0AD79219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF0AD7A219A716000F388FA /* Debug */,
+				9FF0AD7B219A716000F388FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF0AD7C219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF0AD7D219A716000F388FA /* Debug */,
+				9FF0AD7E219A716000F388FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF0AD7F219A716000F388FA /* Build configuration list for PBXNativeTarget "BLDropDownListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF0AD80219A716000F388FA /* Debug */,
+				9FF0AD81219A716000F388FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FF0AD45219A715E00F388FA /* Project object */;
+}
